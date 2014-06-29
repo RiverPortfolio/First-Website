@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <meta charset="utf-8" />
+<title>Innovative Project Initiative</title>
+	<style>
+div.floating-menu {position:fixed;
+    top: 0px;
+    left: 0px;
+    <body bgcolor="teal">
+    background:#D7D7D7;border:-1px solid #ffcc00;width:2500px; 10z-index:2pp5pp;}
+div.floating-menu a, div.floating-menu h3 {display:block;margin:0 0.0em;}    
+        
+    </style>
+<div class="floating-menu">
+<img src="http://i.imgur.com/fLk0jky.png"/>
+<ul id="nav">
+    <li><a href= "http://127.0.0.1:49227/mainhome.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Home &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a> </li> 
+	<li><a href= "http://127.0.0.1:49390/P.I.G.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  P.I.G &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a>  </li>
+    <li><a href="http://127.0.0.1:49390/ContactUs.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Tutorials &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>  </li>   
+    <li class="home"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Resources &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+        <ul>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Websites</a></li>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Books</a></li>
+        </ul>
+<li class="tutorials"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Why Project? &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a>
+        <ul>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The Why</a></li>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The How</a></li>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The Archive</a></li>
+        </ul>
+<li><a href="http://127.0.0.1:49390/ContactUs.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Contact Us &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>  </li>    
+ 
+    
+    
+    </ul>
+  <style>
+    #header { 
+	min-width: 11800px; 
+	height: 10px; 
+} 
+
+}
+#nav li { 
+	list-style: none; 
+	float: left; 
+	width: 1120px; 
+	height: 30px; 
+	line-height: 30px; 
+	text-align: left;
+} 
+#nav li a { 
+	color: black; 
+	text-decoration: none; 
+	display: block; 
+} 
+
+#home .home a, #home .home a:hover,
+#tutorials .tutorials a, #tutorials .tutorials a:hover,
+#about .about a, #about .about a:hover,
+#contact .contact a, #contact .contact a:hover,
+#news .news a, #news .news a:hover {
+ 	background-color: black; 
+	color: #000;
+	cursor: default;  
+    
+} 		
+#nav li ul { 
+	position: absolute;   
+	display: none; 
+} 
+#nav li:hover ul { 
+	display: block; 
+} 
+#nav li ul li { 
+	float: none; 
+	display: inline; 
+}
+#nav li ul li a { 
+	width: 279px; 
+	position: relative; 
+	background: #333; 
+	color: lightgray; 
+}
+
+    </style>  
+    
+
+    
+    
+    </div>
+    <style> 
+ #nav {
+border-top-style:solid;
+border-bottom-style:solid;
+border-width: thin ;
+margin: -7.5px;
+padding: 0;
+list-style-type: none;
+}
+
+#nav li {
+
+display: block;
+float: left;
+margin: 0 0px;
+background: url( ) no-repeat center top;
+
+
+}
+
+#nav a {
+
+font-family:Book Antiqua, sans-serif;
+font-size: 20px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+text-align:left;
+background: url(http://i.imgur.com/nSm2hYX.jpg) no-repeat center top;
+    background-color: #d6d6d6;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.3)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+-webkit-transition: background 0.5s linear;
+-moz-transition: background 0.5s linear;
+-o-transition: background 0.5s linear;
+transition: background 0.5s linear;
+}
+
+#nav a:hover {
+background: url(http://i.imgur.com/nSm2hYX.jpg) no-repeat center top;
+    background-color: #40A340;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.3)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+}    
+  
+        
+        
+        
+</style>
+     <body style="background-image:url(http://i.imgur.com/1x3eddH.png); background-attachment:fixed; background-position:POSITION; background-repeat:REPEAT SETTINGS;">
+         
+<style>
+    
+body {
+    margin: 0 left;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: black;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+
+}
+
+        p
+
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-style:solid;
+border-color:black;
+border-width: medium;
+
+
+        background: #d6d6d6; /* Old browsers */
+background: -moz-linear-gradient(left,  #d6d6d6 0%, #d6d6d6 12%, #fff2f2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d6d6d6), color-stop(12%,#d6d6d6), color-stop(100%,#fff2f2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* IE10+ */
+background: linear-gradient(to right,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#fff2f2',GradientType=1 ); /* IE6-9 */
+    }
+p {
+    font-size: 20px;
+}
+input {
+  border: 1;
+}
+input[type="submit"] {
+  background:orange;
+  color: black;
+}
+element { border: dashed }          /* dashed border of medium thickness, the same color as the text */
+element { border: dotted 1.5em }    /* dotted, 1.5em thick border, the same color as the text */
+element { border: solid red }       /* solid, red border of medium thickness */
+element { border: solid blue 10px } 
+</style>
+    
+<h1>&nbsp&nbsp&nbsp<h1>
+    <h1>&nbsp&nbsp&nbsp<h1>
+        <h1>&nbsp&nbsp&nbsp<h1>
+            
+<h2>&nbsp Home</h2>
+	<p>&nbsp -Project Idea Generator</p>
+			<ul>
+					<li>&nbsp Having trouble coming up with a project idea? This project idea generator will help you come up with the best project for you! The generator will give you a project that will both challenge you and help you on your way to making a project that will actually benefit  you in the future!</li>
+				</ul>
+		<p>&nbsp -Tutorials</p>
+		<ul>
+					<li>&nbsp Here we have a selection of tutorials on making a great project</li>
+				</ul>
+				<p>&nbsp -News</p>
+		<ul>
+					<li>&nbsp Stay in touch with the most recent news stories, projects, and articles!</li>
+</ul>
+		<p>&nbsp -Contact Us</p>
+			<ul>
+					<li>&nbsp Questions? Concerns? We have a dedicated team here to respond and answer any questions you may have</li>
+</ul>
+		<h2>&nbsp About Us!</h2>
+		<ol>&nbsp&nbsp&nbspThe Innovative Project Initiative was founded on April 2nd, 2014.
+        We are a student group of artists, activists, and programmers with the goal of creating an environment where students will develop a passion and create 
+        ambitious and innovative projects. Currently, the Innovative Project Initiative is composed of the following members: </ol>
+<ol> </ol>
+&nbsp&nbsp&nbsp&nbsp&nbsp <img src="http://i.imgur.com/sK7nQfM.jpg"/>
+<h3>&nbsp Nicholas Pumper (Founder/Programmer)</h3>
+&nbsp&nbsp&nbsp&nbsp&nbsp <img src="http://i.imgur.com/hqvWNh2.jpg"/>
+<h3>&nbsp River Feemster (Programmer/Concept Design)</h3>
+&nbsp&nbsp&nbsp&nbsp&nbsp <img src="http://i.imgur.com/RYxddyU.png"/>
+<h3>&nbsp Stefan Hines (Programmer)</h3>
+&nbsp&nbsp&nbsp&nbsp&nbsp <img src="http://i.imgur.com/BihfA1Y.jpg"/>
+<h3>&nbsp Spencer Fredrickson (Promoting)</h3>
+&nbsp&nbsp&nbsp&nbsp&nbsp <img src="http://i.imgur.com/6TWd4ZE.jpg"/>
+<h3>&nbsp Nick Hubig (Web-Design/Artist)</h3>
+&nbsp&nbsp&nbsp&nbsp&nbsp <img src="http://i.imgur.com/D8ObBwi.jpg"/>            
+<h3>&nbsp Emily Hanek (Activist/Promoting)</h3>
+            <il> </il>
+                <ol> </ol>
+                <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <div id="fb-root"></div>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1406091389638141";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="fb-like" data-href="https://www.facebook.com/pages/Innovative-Project-Initiative/388206951319270?ref=hl" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <ol>&nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+                <ol> · Innovative Project Initiative © 2014 ·  </ol>
+ 				</ul>
+
+	</body>
+</html>
