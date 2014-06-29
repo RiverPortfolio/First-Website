@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <meta charset="utf-8" />
+<title>Innovative Project Initiative</title>
+	<style>
+div.floating-menu {position:fixed;
+    top: 0px;
+    left: 0px;
+    <body bgcolor="teal">
+    background:#D7D7D7;border:-1px solid #ffcc00;width:2500px; 10z-index:2pp5pp;}
+div.floating-menu a, div.floating-menu h3 {display:block;margin:0 0.0em;}    
+        
+    </style>
+<div class="floating-menu">
+<img src="http://i.imgur.com/fLk0jky.png"/>
+<ul id="nav">
+    <li><a href= "http://127.0.0.1:49227/mainhome.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Home &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a> </li> 
+	<li><a href= "http://127.0.0.1:49390/P.I.G.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  P.I.G &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a>  </li>
+    <li><a href="http://127.0.0.1:49390/ContactUs.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Tutorials &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>  </li>   
+    <li class="home"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Resources &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+        <ul>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Websites</a></li>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Books</a></li>
+        </ul>
+<li class="tutorials"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Why Project? &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a>
+        <ul>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The Why</a></li>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The How</a></li>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The Archive</a></li>
+        </ul>
+<li><a href="http://127.0.0.1:49390/ContactUs.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Contact Us &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>  </li>    
+ 
+    
+    
+    </ul>
+  <style>
+    #header { 
+	min-width: 11800px; 
+	height: 10px; 
+} 
+
+}
+#nav li { 
+	list-style: none; 
+	float: left; 
+	width: 1120px; 
+	height: 30px; 
+	line-height: 30px; 
+	text-align: left;
+} 
+#nav li a { 
+	color: black; 
+	text-decoration: none; 
+	display: block; 
+} 
+
+#home .home a, #home .home a:hover,
+#tutorials .tutorials a, #tutorials .tutorials a:hover,
+#about .about a, #about .about a:hover,
+#contact .contact a, #contact .contact a:hover,
+#news .news a, #news .news a:hover {
+ 	background-color: black; 
+	color: #000;
+	cursor: default;  
+    
+} 		
+#nav li ul { 
+	position: absolute;   
+	display: none; 
+} 
+#nav li:hover ul { 
+	display: block; 
+} 
+#nav li ul li { 
+	float: none; 
+	display: inline; 
+}
+#nav li ul li a { 
+	width: 279px; 
+	position: relative; 
+	background: #333; 
+	color: lightgray; 
+}
+
+    </style>  
+    
+
+    
+    
+    </div>
+    <style> 
+ #nav {
+border-top-style:solid;
+border-bottom-style:solid;
+border-width: thin ;
+margin: -7.5px;
+padding: 0;
+list-style-type: none;
+}
+
+#nav li {
+
+display: block;
+float: left;
+margin: 0 0px;
+background: url( ) no-repeat center top;
+
+
+}
+
+#nav a {
+
+font-family:Book Antiqua, sans-serif;
+font-size: 20px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+text-align:left;
+background: url(http://i.imgur.com/nSm2hYX.jpg) no-repeat center top;
+    background-color: #d6d6d6;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.3)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+-webkit-transition: background 0.5s linear;
+-moz-transition: background 0.5s linear;
+-o-transition: background 0.5s linear;
+transition: background 0.5s linear;
+}
+
+#nav a:hover {
+background: url(http://i.imgur.com/nSm2hYX.jpg) no-repeat center top;
+    background-color: #40A340;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.3)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+}    
+  
+        
+        
+        
+</style>
+     <body style="background-image:url(http://i.imgur.com/1x3eddH.png); background-attachment:fixed; background-position:POSITION; background-repeat:REPEAT SETTINGS;">
+         
+<style>
+    
+body {
+    margin: 0 left;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: black;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+
+}
+
+        p
+
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-style:solid;
+border-color:black;
+border-width: medium;
+
+
+        background: #d6d6d6; /* Old browsers */
+background: -moz-linear-gradient(left,  #d6d6d6 0%, #d6d6d6 12%, #fff2f2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d6d6d6), color-stop(12%,#d6d6d6), color-stop(100%,#fff2f2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* IE10+ */
+background: linear-gradient(to right,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#fff2f2',GradientType=1 ); /* IE6-9 */
+    }
+p {
+    font-size: 20px;
+}
+input {
+  border: 1;
+}
+input[type="submit"] {
+  background:orange;
+  color: black;
+}
+element { border: dashed }          /* dashed border of medium thickness, the same color as the text */
+element { border: dotted 1.5em }    /* dotted, 1.5em thick border, the same color as the text */
+element { border: solid red }       /* solid, red border of medium thickness */
+element { border: solid blue 10px } 
+</style>
+
+<!--HERE IS THE MAIN SLAB OF TEXT YOU MUTANT-PORKCHOP -->
+     
+<h1>&nbsp&nbsp&nbsp<h1>
+    <h1>&nbsp&nbsp&nbsp<h1>
+        <h1>&nbsp&nbsp&nbsp<h1>
+            
+	<h2><img id="pigLogo" src="http://i.imgur.com/Hpu9oWx.png/"></h2>
+            <h1>&nbsp Welcome to the Project Idea Generator (P.I.G)</h1>
+    <br><p2>&nbsp So, you want a challenge, eh? Well, fill out the parameters honestly, then use your head to spin a world-changing idea!</p2>
+    <br>
+    <br><p3>&nbsp</p3>
+    <p601 id="firstQ">
+        <p3>What is a challenge you want to conquer?</p3>
+        <br><select id="WhatWantAnswer">
+            <option></option>
+            <option>Contribute To My School</option>
+            <option>Help Someone</option>
+            <option>Solve A Problem</option>
+            <option>Create/Build Something</option>
+            <option>Start A Business</option>
+            <option>Contribute To My Community</option>
+            <option>Improve Something</option>
+            <option>Explore A Career</option>
+        </select>
+        <br>
+    </p601>
+    <p602 id="secondQ">
+        <br><p4>Now please select 3 subjects that you are good at! You don't necessarily have to like these, you just have to be good at them!</p4>
+        <br><select class="WhatSkill" id="WS1">
+            <option></option>
+            <option>Art</option>
+            <option>Biology</option>
+            <option>Chemistry</option>
+            <option>Physics</option>
+            <option>History</option>
+            <option>Computer Science</option>
+            <option>Geography</option>
+            <option>Political Science</option>
+            <option>Mathematics</option>
+            <option>Engineering</option>
+            <option>Illustration</option>
+            <option>Film-Making</option>
+            <option>Literature</option>
+            <option>Design</option>
+            <option>Music</option>
+            <option>Photography</option>
+            <option>Writing</option>
+            <option>Foreign Language</option>
+            <option>Economics</option>
+            <option>Business</option>
+            <option>Law</option>
+        </select>
+        <br><select class="WhatSkill" id="WS2">
+            <option></option>
+            <option>Art</option>
+            <option>Biology</option>
+            <option>Chemistry</option>
+            <option>Physics</option>
+            <option>History</option>
+            <option>Computer Science</option>
+            <option>Geography</option>
+            <option>Political Science</option>
+            <option>Mathematics</option>
+            <option>Engineering</option>
+            <option>Illustration</option>
+            <option>Film-Making</option>
+            <option>Literature</option>
+            <option>Design</option>
+            <option>Music</option>
+            <option>Photography</option>
+            <option>Writing</option>
+            <option>Foreign Language</option>
+            <option>Economics</option>
+            <option>Business</option>
+            <option>Law</option>
+        </select>
+        <br><select class="WhatSkill" id="WS3">
+            <option></option>
+            <option>Art</option>
+            <option>Biology</option>
+            <option>Chemistry</option>
+            <option>Physics</option>
+            <option>History</option>
+            <option>Computer Science</option>
+            <option>Geography</option>
+            <option>Political Science</option>
+            <option>Mathematics</option>
+            <option>Engineering</option>
+            <option>Illustration</option>
+            <option>Film-Making</option>
+            <option>Literature</option>
+            <option>Design</option>
+            <option>Music</option>
+            <option>Photography</option>
+            <option>Writing</option>
+            <option>Foreign Language</option>
+            <option>Economics</option>
+            <option>Business</option>
+            <option>Law</option>
+        </select>
+        <br>
+    </p602>
+    <p603 id="thirdQuestion">
+        <br>Now, please type in 3 things that you like!
+        <br><input class="WhatLike" id="WL1" type="text">
+        <br><input class="WhatLike" id="WL2" type="text">
+        <br><input class="WhatLike" id="WL3" type="text">
+        <br>
+    </p603>
+    <br><p5 id="submit">Click here to get an idea!</p5>
+    <br><p90000>&nbsp</p90000>
+    <br><p90001>&nbsp</p90001><p6 id="GenP1"> I want to&nbsp</p6><p7 id="GenP2" class="GenP2"></p7><p8 id = "GenP3">&nbspusing my skills in&nbsp</p8><p9 id="GenP4"></p9><p10 id="GenP5">&nbspand love for&nbsp</p10><p11 id="GenP6"></p11><p12 id="GenP7">.</p12>
+    <br><P90002>&nbsp</p90002>
+    <style>
+        #WhatWantAnswer {
+        height: 30px;
+        width: 200px;
+        background-color:;
+        border-radius: 5px;}
+        
+        .WhatSkill {
+        height: 30px;
+        width: 200px;
+        background-color:;
+        border-radius: 5px;}
+
+        #submit {
+        height: 100px;
+        width: 300px;
+        background-color: #00FF7F;
+        border-radius: 5px;}
+        
+        #GenP2 {
+        height: 75px;
+        width: 500px;
+        background-color: #FA6900;
+        border-radius: 5px;}
+        
+        #GenP4 {
+        height: 75px;
+        width: 500px;
+        background-color: #FA6900;
+        border-radius: 5px;}
+        
+        #GenP6 {
+        height: 75px;
+        width: 500px;
+        background-color: #FA6900;
+        border-radius: 5px;}
+        
+        #pigLogo {
+        height: 90px;
+        width: 100px;}
+    </style>
+        <script>
+        $(document).ready(function() {
+
+            
+            $("#GenP1").hide('fast');
+            $("#GenP3").hide('fast');
+            $("#GenP5").hide('fast');
+            $("#GenP7").hide('fast');
+            
+            //Check if parameters are empty!
+            var czechParameters = function (){
+                var WWantAnswer = document.getElementById("WhatWantAnswer");
+                var WSkillAnswer1 = document.getElementById("WS1");
+                var WSkillAnswer2 = document.getElementById("WS2");
+                var WSkillAnswer3 = document.getElementById("WS3");
+                var WLikeAnswer1 = document.getElementById("WL1");
+                var WLikeAnswer2 = document.getElementById("WL2");
+                var WLikeAnswer3 = document.getElementById("WL3");
+            
+                var WWA = Number(WWantAnswer.selectedIndex);
+                var WSA1 = Number(WSkillAnswer1.selectedIndex);
+                var WSA2 = Number(WSkillAnswer2.selectedIndex);
+                var WSA3 = Number(WSkillAnswer3.selectedIndex);
+                
+                if (WWA === 0){
+                    alert("Some of the parameters are empty! Please fill them out completely and honestly. :)");
+                }
+                else if (WSA1 === 0){
+                    alert("Some of the parameters are empty! Please fill them out completely and honestly. :)");
+                }
+                else if (WSA2 === 0){
+                    alert("Some of the parameters are empty! Please fill them out completely and honestly. :)");
+                }
+                else if (WSA3 === 0){
+                    alert("Some of the parameters are empty! Please fill them out completely and honestly. :)");
+                }
+                else if (WLikeAnswer1 === ""){
+                    alert("Some of the parameters are empty! Please fill them out completely and honestly. :)");
+                }
+                else if (WLikeAnswer2 === ""){
+                    alert("Some of the parameters are empty! Please fill them out completely and honestly. :)");
+                }
+                else if (WLikeAnswer3 === ""){
+                    alert("Some of the parameters are empty! Please fill them out completely and honestly. :)");
+                }
+                else {return;}
+            }
+            
+            //This function will select one of the WhatSkill Options at random!
+            var RandomSkill = function () {
+                var RandomNumba = Math.floor(Math.random()*3);
+                //alert(RandomNumba);
+                if (RandomNumba === 0){
+                    return GeneratePartTwoPointOne();
+                }
+                else if (RandomNumba === 1) {
+                    return GeneratePartTwoPointTwo();
+                }
+                else {
+                    return GeneratePartTwoPointThree();
+                }
+            };    
+                
+                //This empties the idea space thing.
+            var EmptyDaShit = function () {
+                $('#GenP2').empty();
+                $('#GenP4').empty();
+                $('#GenP6').empty();
+            }    
+            
+            //This is the function to generate awesome statements!
+            var GeneratePartOne = function () {
+                //alert("IT WORKSSSSS!!!!!!!!");
+                //This is fetching all the inputs to the questions and labeling them.
+                var WWantAnswer = document.getElementById("WhatWantAnswer");
+                var WWA = Number(WWantAnswer.selectedIndex);
+
+                if (WWA === 1) {
+                    $("#GenP2").append("<p901>contribute to my school</p901>");
+                }
+                else if (WWA === 2) {
+                    $("#GenP2").append("<p902>help someone</p902>");
+                } 
+                else if (WWA === 3) {
+                    $("#GenP2").append("<p903>solve a problem</p903>");
+                } 
+                else if (WWA === 4) {
+                    $("#GenP2").append("<p902>create/build something</p902>");
+                } 
+                else if (WWA === 5) {
+                    $("#GenP2").append("<p902>start a business</p902>");
+                } 
+                else if (WWA === 6) {
+                    $("#GenP2").append("<p902>contribute to my community</p902>");
+                } 
+                else if (WWA === 7) {
+                    $("#GenP2").append("<p902>improve something</p902>");
+                } 
+                else if (WWA === 8) {
+                    $("#GenP2").append("<p902>explore a career</p902>");
+                } 
+                else {
+                    return;
+                }
+            };
+            
+            var GeneratePartTwoPointOne = function () {
+                var WSkillAnswer1 = document.getElementById("WS1");
+                var WSA1 = Number(WSkillAnswer1.selectedIndex);
+                //alert(WSA1);
+                
+                if (WSA1 === 1) {
+                    $("#GenP4").append("<p907>Art</p907>");
+                }
+                else if (WSA1 === 2) {
+                    $("#GenP4").append("<p908>Biology</p908>");
+                } 
+                else if (WSA1 === 3) {
+                    $("#GenP4").append("<p909>Chemistry</p909>");
+                } 
+                else if (WSA1 === 4) {
+                    $("#GenP4").append("<p910>Physics</p910>");
+                } 
+                else if (WSA1 === 5) {
+                    $("#GenP4").append("<p911>History</p911>");
+                } 
+                else if (WSA1 === 6) {
+                    $("#GenP4").append("<p912>Computer Science</p912>");
+                } 
+                else if (WSA1 === 7) {
+                    $("#GenP4").append("<p913>Geography</p913>");
+                } 
+                else if (WSA1 === 8) {
+                    $("#GenP4").append("<p914>Political Science</p914>");
+                } 
+                else if (WSA1 === 9) {
+                    $("#GenP4").append("<p915>Mathematics</p915>");
+                } 
+                else if (WSA1 === 10) {
+                    $("#GenP4").append("<p916>Engineering</p916>");
+                } 
+                else if (WSA1 === 11) {
+                    $("#GenP4").append("<p917>Illustration</p917>");
+                } 
+                else if (WSA1 === 12) {
+                    $("#GenP4").append("<p920>Film-Making</p920>");
+                } 
+                else if (WSA1 === 13) {
+                    $("#GenP4").append("<p921>Literature</p921>");
+                } 
+                else if (WSA1 === 14) {
+                    $("#GenP4").append("<p922>Design</p922>");
+                } 
+                else if (WSA1 === 15) {
+                    $("#GenP4").append("<p923>Music</p923>");
+                } 
+                else if (WSA1 === 16) {
+                    $("#GenP4").append("<p924>Photography</p924>");
+                } 
+                else if (WSA1 === 17) {
+                    $("#GenP4").append("<p925>Writing</p925>");
+                } 
+                else if (WSA1 === 18) {
+                    $("#GenP4").append("<p926>Foreign Language</p926>");
+                } 
+                else if (WSA1 === 19) {
+                    $("#GenP4").append("<p927>Economics</p927>");
+                } 
+                else if (WSA1 === 20) {
+                    $("#GenP4").append("<p928>Business</p928>");
+                } 
+                else if (WSA1 === 21) {
+                    $("#GenP4").append("<p929>Law</p929>");
+                } 
+                else {
+                    return alert;
+                }
+            }; 
+            
+            var GeneratePartTwoPointTwo = function () {
+                var WSkillAnswer2 = document.getElementById("WS2");
+                var WSA2 = Number(WSkillAnswer2.selectedIndex);
+                //alert(WSA1);
+                
+                if (WSA2 === 1) {
+                    $("#GenP4").append("<p907>Art</p907>");
+                }
+                else if (WSA2 === 2) {
+                    $("#GenP4").append("<p908>Biology</p908>");
+                } 
+                else if (WSA2 === 3) {
+                    $("#GenP4").append("<p909>Chemistry</p909>");
+                } 
+                else if (WSA2 === 4) {
+                    $("#GenP4").append("<p910>Physics</p910>");
+                } 
+                else if (WSA2 === 5) {
+                    $("#GenP4").append("<p911>History</p911>");
+                } 
+                else if (WSA2 === 6) {
+                    $("#GenP4").append("<p912>Computer Science</p912>");
+                } 
+                else if (WSA2 === 7) {
+                    $("#GenP4").append("<p913>Geography</p913>");
+                } 
+                else if (WSA2 === 8) {
+                    $("#GenP4").append("<p914>Political Science</p914>");
+                } 
+                else if (WSA2 === 9) {
+                    $("#GenP4").append("<p915>Mathematics</p915>");
+                } 
+                else if (WSA2 === 10) {
+                    $("#GenP4").append("<p916>Engineering</p916>");
+                } 
+                else if (WSA2 === 11) {
+                    $("#GenP4").append("<p917>Illustration</p917>");
+                } 
+                else if (WSA2 === 12) {
+                    $("#GenP4").append("<p920>Film-Making</p920>");
+                } 
+                else if (WSA2 === 13) {
+                    $("#GenP4").append("<p921>Literature</p921>");
+                } 
+                else if (WSA2 === 14) {
+                    $("#GenP4").append("<p922>Design</p922>");
+                } 
+                else if (WSA2 === 15) {
+                    $("#GenP4").append("<p923>Music</p923>");
+                } 
+                else if (WSA2 === 16) {
+                    $("#GenP4").append("<p924>Photography</p924>");
+                } 
+                else if (WSA2 === 17) {
+                    $("#GenP4").append("<p925>Writing</p925>");
+                } 
+                else if (WSA2 === 18) {
+                    $("#GenP4").append("<p926>Foreign Language</p926>");
+                } 
+                else if (WSA2 === 19) {
+                    $("#GenP4").append("<p927>Economics</p927>");
+                } 
+                else if (WSA2 === 20) {
+                    $("#GenP4").append("<p928>Business</p928>");
+                } 
+                else if (WSA2 === 21) {
+                    $("#GenP4").append("<p929>Law</p929>");
+                } 
+                else {
+                    return alert;
+                }
+            };
+            
+            var GeneratePartTwoPointThree = function () {
+                var WSkillAnswer3 = document.getElementById("WS3");
+                var WSA3 = Number(WSkillAnswer3.selectedIndex);
+                //alert(WSA1);
+                
+                if (WSA3 === 1) {
+                    $("#GenP4").append("<p907>Art</p907>");
+                }
+                else if (WSA3 === 2) {
+                    $("#GenP4").append("<p908>Biology</p908>");
+                } 
+                else if (WSA3 === 3) {
+                    $("#GenP4").append("<p909>Chemistry</p909>");
+                } 
+                else if (WSA3 === 4) {
+                    $("#GenP4").append("<p910>Physics</p910>");
+                } 
+                else if (WSA3 === 5) {
+                    $("#GenP4").append("<p911>History</p911>");
+                } 
+                else if (WSA3 === 6) {
+                    $("#GenP4").append("<p912>Computer Science</p912>");
+                } 
+                else if (WSA3 === 7) {
+                    $("#GenP4").append("<p913>Geography</p913>");
+                } 
+                else if (WSA3 === 8) {
+                    $("#GenP4").append("<p914>Political Science</p914>");
+                } 
+                else if (WSA3 === 9) {
+                    $("#GenP4").append("<p915>Mathematics</p915>");
+                } 
+                else if (WSA3 === 10) {
+                    $("#GenP4").append("<p916>Engineering</p916>");
+                } 
+                else if (WSA3 === 11) {
+                    $("#GenP4").append("<p917>Illustration</p917>");
+                } 
+                else if (WSA3 === 12) {
+                    $("#GenP4").append("<p920>Film-Making</p920>");
+                } 
+                else if (WSA3 === 13) {
+                    $("#GenP4").append("<p921>Literature</p921>");
+                } 
+                else if (WSA3 === 14) {
+                    $("#GenP4").append("<p922>Design</p922>");
+                } 
+                else if (WSA3 === 15) {
+                    $("#GenP4").append("<p923>Music</p923>");
+                } 
+                else if (WSA3 === 16) {
+                    $("#GenP4").append("<p924>Photography</p924>");
+                } 
+                else if (WSA3 === 17) {
+                    $("#GenP4").append("<p925>Writing</p925>");
+                } 
+                else if (WSA3 === 18) {
+                    $("#GenP4").append("<p926>Foreign Language</p926>");
+                } 
+                else if (WSA3 === 19) {
+                    $("#GenP4").append("<p927>Economics</p927>");
+                } 
+                else if (WSA3 === 20) {
+                    $("#GenP4").append("<p928>Business</p928>");
+                } 
+                else if (WSA3 === 21) {
+                    $("#GenP4").append("<p929>Law</p929>");
+                } 
+                else {
+                    return;
+                }
+            }; 
+            
+            var GeneratePartThree = function() {
+                var WLikeAnswer1 = document.getElementById("WL1").value;
+                var WLikeAnswer2 = document.getElementById("WL2").value;
+                var WLikeAnswer3 = document.getElementById("WL3").value;
+                //alert(WLikeAnswer1);
+                
+                var RandomNumba = Math.floor(Math.random()*3);
+                //alert(RandomNumba);
+                if (RandomNumba === 0){
+                    $("#GenP6").append(WLikeAnswer1);
+                }
+                else if (RandomNumba === 1) {
+                    $("#GenP6").append(WLikeAnswer2);
+                }
+                else {
+                    $("#GenP6").append(WLikeAnswer3);
+                }
+            }
+            
+            //This is for the submit button to do awesome things!
+            $("#submit").click(function() {
+                //czechParameters();
+                $("#GenP1").show('fast');
+                $("#GenP3").show('fast');
+                $("#GenP5").show('fast');
+                $("#GenP7").show('fast');
+                EmptyDaShit();
+                GeneratePartOne();
+                RandomSkill();
+                GeneratePartThree();
+                var WLikeAnswer3 = document.getElementById("WL3").value;
+            });
+        });
+        </script>
+    
+<!--END OF THE MAIN SLAB OF TEXT, YOU MUTANT-PORKCHOP-->
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <div id="fb-root"></div>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1406091389638141";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="fb-like" data-href="https://www.facebook.com/pages/Innovative-Project-Initiative/388206951319270?ref=hl" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <ol>&nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+                <ol> · Innovative Project Initiative © 2014 ·  </ol>
+ 				</ul>
+	</body>
+</html>
