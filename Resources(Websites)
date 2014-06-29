@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <meta charset="utf-8" />
+<title>Innovative Project Initiative</title>
+	<style>
+div.floating-menu {position:fixed;
+    top: 0px;
+    left: 0px;
+    <body bgcolor="teal">
+    background:#D7D7D7;border:-1px solid #ffcc00;width:2500px; 10z-index:2pp5pp;}
+div.floating-menu a, div.floating-menu h3 {display:block;margin:0 0.0em;}    
+        
+    </style>
+<div class="floating-menu">
+<img src="http://i.imgur.com/fLk0jky.png"/>
+<ul id="nav">
+    <li><a href= "http://127.0.0.1:49227/mainhome.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Home &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a> </li> 
+	<li><a href= "http://127.0.0.1:49390/P.I.G.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  P.I.G &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a>  </li>
+    <li><a href="http://127.0.0.1:49390/ContactUs.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Tutorials &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>  </li>   
+    <li class="home"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Resources &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+        <ul>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Websites</a></li>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Books</a></li>
+        </ul>
+<li class="tutorials"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Why Project? &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a>
+        <ul>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The Why</a></li>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The How</a></li>
+          <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The Archive</a></li>
+        </ul>
+<li><a href="http://127.0.0.1:49390/ContactUs.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Contact Us &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>  </li>    
+ 
+    
+    
+    </ul>
+  <style>
+    #header { 
+	min-width: 11800px; 
+	height: 10px; 
+} 
+
+}
+#nav li { 
+	list-style: none; 
+	float: left; 
+	width: 1120px; 
+	height: 30px; 
+	line-height: 30px; 
+	text-align: left;
+} 
+#nav li a { 
+	color: black; 
+	text-decoration: none; 
+	display: block; 
+} 
+
+#home .home a, #home .home a:hover,
+#tutorials .tutorials a, #tutorials .tutorials a:hover,
+#about .about a, #about .about a:hover,
+#contact .contact a, #contact .contact a:hover,
+#news .news a, #news .news a:hover {
+ 	background-color: black; 
+	color: #000;
+	cursor: default;  
+    
+} 		
+#nav li ul { 
+	position: absolute;   
+	display: none; 
+} 
+#nav li:hover ul { 
+	display: block; 
+} 
+#nav li ul li { 
+	float: none; 
+	display: inline; 
+}
+#nav li ul li a { 
+	width: 279px; 
+	position: relative; 
+	background: #333; 
+	color: lightgray; 
+}
+
+    </style>  
+    
+
+    
+    
+    </div>
+    <style> 
+ #nav {
+border-top-style:solid;
+border-bottom-style:solid;
+border-width: thin ;
+margin: -7.5px;
+padding: 0;
+list-style-type: none;
+}
+
+#nav li {
+
+display: block;
+float: left;
+margin: 0 0px;
+background: url( ) no-repeat center top;
+
+
+}
+
+#nav a {
+
+font-family:Book Antiqua, sans-serif;
+font-size: 20px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+text-align:left;
+background: url(http://i.imgur.com/nSm2hYX.jpg) no-repeat center top;
+    background-color: #d6d6d6;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.3)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+-webkit-transition: background 0.5s linear;
+-moz-transition: background 0.5s linear;
+-o-transition: background 0.5s linear;
+transition: background 0.5s linear;
+}
+
+#nav a:hover {
+background: url(http://i.imgur.com/nSm2hYX.jpg) no-repeat center top;
+    background-color: #40A340;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.3)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+}    
+  
+        
+        
+        
+</style>
+     <body style="background-image:url(http://i.imgur.com/1x3eddH.png); background-attachment:fixed; background-position:POSITION; background-repeat:REPEAT SETTINGS;">
+         
+<style>
+    
+body {
+    margin: 0 left;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: black;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+
+}
+
+        p
+
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-style:solid;
+border-color:black;
+border-width: medium;
+
+
+        background: #d6d6d6; /* Old browsers */
+background: -moz-linear-gradient(left,  #d6d6d6 0%, #d6d6d6 12%, #fff2f2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d6d6d6), color-stop(12%,#d6d6d6), color-stop(100%,#fff2f2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* IE10+ */
+background: linear-gradient(to right,  #d6d6d6 0%,#d6d6d6 12%,#fff2f2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#fff2f2',GradientType=1 ); /* IE6-9 */
+    }
+p {
+    font-size: 20px;
+}
+input {
+  border: 1;
+}
+input[type="submit"] {
+  background:orange;
+  color: black;
+}
+element { border: dashed }          /* dashed border of medium thickness, the same color as the text */
+element { border: dotted 1.5em }    /* dotted, 1.5em thick border, the same color as the text */
+element { border: solid red }       /* solid, red border of medium thickness */
+element { border: solid blue 10px } 
+</style>
+         
+    <h1>&nbsp&nbsp&nbsp<h1>
+    <h1>&nbsp&nbsp&nbsp<h1>
+    <h1>&nbsp&nbsp&nbsp<h1>
+            
+<h2>&nbsp Resources</h2>
+	<h3>&nbsp -Websites</h3>
+			<ul>
+					
+				</ul>
+        <ul>
+		            <il> </il>
+                <ol> </ol>
+            <h4>LearnersTV</h4>
+<p>A website dedicated to video lectures, courses, presentations, and tests. It’s a really useful website for those who want to more about STEM topics.</p>
+<h4>Kahn Academy</h4>
+<p>Amazing videos on most subjects, just sit back and let Sal's voice fill you with knowledge.</p>
+<h4>Coursera</h4>
+<p>Free online college courses. Learn some stuff!</p>
+<h4>Open Yale Courses</h4>
+<p>Online Yale courses! Learn like the best of them!</p>
+<h4>Acedemic Earth</h4>
+<p>More online Academia! Learn more things!</p>
+<h4>Itunes U</h4>
+<p>iPad based teaching and learning software. Check it out!</p>
+<h4>Code Academy</h4>
+<p>Learn how to code! Most of the IPI team learned on this site!</p>
+<h4>Wolfram Alpha</h4>
+<p>Amazing calculator and search engine. Go look something up!</p>
+<h4>The Mythical Creatures List</h4>
+<p>While this website is a bit hard to look at, the content it holds is amazing. The mythical creatures list can be used to spark inspiration for projects, or spice up a creative writing project.</p>
+<h4>MAKE magazine</h4>
+<p>Great articles, how-to's, and a large community of experts.</p>
+<h4>imslp</h4>
+<p>Public domain sheet music source.</p>
+<h4>Wideo</h4>
+<p>Simple but effective animation software. Make it move!</p>
+<h4>ReferenceReference </h4>
+<p>A site full of different videos broken down frame-by-frame for awesome animations and poses!</p>
+<h4>Goodreads</h4>
+<p>While it’s not a website with free books on it, it helps you by organizing, recommending, and finding books! Read more things!</p>
+<h4>Project Gutenberg</h4>
+<p>More books! Current and historical works for your enjoyment.</p>
+<h4>Open Library</h4>
+<p>Thousands of e-books to browse, borrow, or have. Read a book!</p>
+<h4>100 Books Everybody Must Read</h4>
+<p>Just as the title says! A list of 100 books that you should read, or consider reading at least.</p>
+<h4>Edit Minion</h4>
+<p>There’s a few kinks with this one still, but it can help you find some errors in your writing and gives you grades on different parts of writing, such as passive voice and spelling.</p>
+
+     
+
+
+                <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>       <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+            <ol> &nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <div id="fb-root"></div>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1406091389638141";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="fb-like" data-href="https://www.facebook.com/pages/Innovative-Project-Initiative/388206951319270?ref=hl" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <ol>&nbsp&nbsp&nbsp&nbsp&nbsp</ol>
+                <ol> · Innovative Project Initiative © 2014 ·  </ol>
+ 				</ul>
+
+
